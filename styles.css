@@ -1,9 +1,20 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     background: #EFEFEF;
     font-family: 'adobe clean';
-    margin: 0;
+}
+
+.core_wcm_components_image_v2_image img,
+.core_wcm_components_teaser_v1_teaser img {
+    display: block;
+}
+
+.core_wcm_components_teaser_v1_teaser a {
+    display: inline-block;
+    border: 0.2rem solid;
+    border-radius: 1.56em;
+    color: #000;
+    font-weight: 300;
+    margin-right: 0.8em;
+    padding: 0.5625em 1em 0.6875em;
+    text-decoration: none;
 }
