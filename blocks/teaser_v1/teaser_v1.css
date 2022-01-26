@@ -1,6 +1,7 @@
 .teaser_v1 {
     text-align: center;
-    width: 20rem;
+    min-width: 30rem;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
