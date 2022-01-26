@@ -1,0 +1,23 @@
+.teaser_v1 {
+    text-align: center;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teaser_v1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teaser_v1 p > a {
+    display: inline-block;
+    border: 0.125em solid;
+    border-radius: 1.56em;
+    color: #fff;
+    font-weight: 300;
+    margin-right: 0.8em;
+    padding: 0.5625em 1em 0.6875em;
+    text-decoration: none;
+}
