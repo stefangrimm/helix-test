@@ -6,9 +6,18 @@ body {
     width: 40em;
 }
 
+.core_wcm_components_teaser_v1_teaser {
+    text-align: center;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .core_wcm_components_image_v2_image img,
 .core_wcm_components_teaser_v1_teaser img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .core_wcm_components_teaser_v1_teaser p > a {
