@@ -22,7 +22,10 @@ export default async function decorate(block) {
 
   // fetch nav content
   const navPath = cfg.nav || '/nav';
-  const resp = await fetch(`${navPath}.plain.html`);
+  const usp = new URLSearchParams(window.location.search);
+  const pipelineId = usp.get('hlx-pipeline-version');
+  const queryStr = (pipelineId ? `?hlx-pipeline-version=${pipelineId}` : '');
+  const resp = await fetch(`${navPath}.plain.html${queryStr}`);
   const html = await resp.text();
 
   // decorate nav DOM
