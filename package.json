@@ -1,8 +1,8 @@
 {
-  "name": "@adobe/helix-pages-starter",
+  "name": "@stefangrimm/helix-test",
   "private": true,
   "version": "1.0.0",
-  "description": "Starter project for Adobe Helix Pages",
+  "description": "PoC for publishing AEM pages to Helix",
   "scripts": {
     "test": "wtr \"./test/**/*.test.js\" --node-resolve --port=2000 --coverage",
     "test:watch": "npm test -- --watch",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adobe/helix-pages-starter.git"
+    "url": "git+https://github.com/stefangrimm/helix-test"
   },
   "author": "Adobe",
   "license": "Apache License 2.0",
   "bugs": {
-    "url": "https://github.com/adobe/helix-pages-starter/issues"
+    "url": "https://github.com/stefangrimm/helix-test"
   },
-  "homepage": "https://github.com/adobe/helix-pages-starter#readme",
+  "homepage": "https://github.com/stefangrimm/helix-test#readme",
   "devDependencies": {
     "@babel/core": "7.16.12",
     "@babel/eslint-parser": "7.16.5",
