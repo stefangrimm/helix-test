@@ -17,17 +17,14 @@
 }
 
 html {
-  font-size: 1em;
+  font-size: 1rem;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
   margin: 0;
-  font-family: 'helvetica neue', helvetica,
-  ubuntu,
-  roboto, noto,
-  sans-serif;
+  font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
   line-height: 1.6;
   margin: 0;
   color: rgba(var(--text-color),.9);
@@ -44,7 +41,7 @@ header {
 }
 
 main {
-  font-size: 1.6rem;
+  font-size: 1rem;
   min-height: calc(100vh - 156px);
 }
 
