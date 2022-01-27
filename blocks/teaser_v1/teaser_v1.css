@@ -12,13 +12,24 @@
     margin-right: auto;
 }
 
+.teaser_v1 h3 {
+    font-size: 1.75em;
+    line-height: 2.25rem;
+}
+
 .teaser_v1 p > a {
     display: inline-block;
     border: 0.125em solid;
     border-radius: 1.56em;
-    color: #fff;
+    color: #000;
     font-weight: 300;
     margin-right: 0.8em;
     padding: 0.5625em 1em 0.6875em;
     text-decoration: none;
+}
+
+.teaser_v1 p.deck {
+    font-size: .625em;
+    color: #607d8b;
+    text-transform: uppercase;
 }

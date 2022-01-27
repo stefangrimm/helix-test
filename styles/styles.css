@@ -16,17 +16,8 @@
   --text-color: 0,0,0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-      --link-color: 21,190,236;
-      --background-color: 0,0,0;
-      --text-color: 255,255,255;
-  }
-}
-
-
 html {
-  font-size: 62.5%;
+  font-size: 1em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -73,8 +64,8 @@ h5 { font-size: 1rem; }
 h6 { font-size: .875rem; }
 
 p, dl, ol, ul, pre, blockquote {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-block: 0.75rem;
+  line-height: 28px
 }
 
 a:any-link {

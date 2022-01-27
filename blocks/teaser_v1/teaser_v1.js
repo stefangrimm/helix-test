@@ -1,15 +1,8 @@
 export default function decorate($block) {
-  /*
-  // turn links into buttons
-  $block.querySelectorAll(':scope a').forEach(($a) => {
-    const $button = document.createElement('button');
-    $button.title = $a.title || $a.textContent;
-    $button.textContent = $a.textContent;
-    $button.addEventListener('click', () => {
-      $block.dataset.buttonClicked = $a.href;
-      window.open($a.href);
-    });
-    $a.replaceWith($button);
+  // add some classes according to structure
+  $block.querySelectorAll(':scope p').forEach(($p, i) => {
+    if (i === 0) {
+      $p.classList.add('deck');
+    }
   });
-  */
 }
