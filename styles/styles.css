@@ -414,6 +414,86 @@ main img {
   margin-left: 90%;
 }
 
+.grid-8--width-1 {
+  width: 12.5%;
+  clear: none;
+  float: left;
+}
+
+.grid-8--width-2 {
+  width: 25%;
+  clear: none;
+  float: left;
+}
+
+.grid-8--width-3 {
+  width: 37.5%;
+  clear: none;
+  float: left;
+}
+
+.grid-8--width-4 {
+  width: 50%;
+  clear: none;
+  float: left;
+}
+
+.grid-8--width-5 {
+  width: 62.5%;
+  clear: none;
+  float: left;
+}
+
+.grid-8--width-6 {
+  width: 75%;
+  clear: none;
+  float: left;
+}
+
+.grid-8--width-7 {
+  width: 87.5%;
+  clear: none;
+  float: left;
+}
+
+.grid-8--width-8 {
+  width: 100%;
+  clear: none;
+  float: left;
+}
+
+.grid-8--offset-0 {
+  margin-left: 0;
+}
+
+.grid-8--offset-1 {
+  margin-left: 12.5%;
+}
+
+.grid-8--offset-2 {
+  width: 25%;
+}
+
+.grid-8--offset-3 {
+  margin-left: 37.5%;
+}
+
+.grid-8--offset-4 {
+  margin-left: 50%;
+}
+
+.grid-8--offset-5 {
+  margin-left: 62.5%;
+}
+
+.grid-8--offset-6 {
+  margin-left: 75%;
+}
+
+.grid-8--offset-7 {
+  margin-left: 87.5%;
+}
+
 /* above the fold CSS goes here to squash CLS */
 
 main .section-wrapper[data-section-status='loading'], main .section-wrapper[data-section-status='initialized'] {
