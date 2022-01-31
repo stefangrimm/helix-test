@@ -26,6 +26,15 @@
     text-decoration: none;
 }
 
+.teaser_v1 h3 > a {
+    color: #000;
+}
+
+.teaser_v1 h3 > a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
 .teaser_v1 p.deck {
     font-size: .625rem;
     color: #607d8b;
