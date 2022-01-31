@@ -1,5 +1,8 @@
 .teaser_v1 {
     text-align: center;
+}
+
+.teaser_v1.grid {
     padding: 1rem;
 }
 
