@@ -1,3 +1,7 @@
+.image_v2.grid {
+    padding: 1rem;
+}
+
 .image_v2 img {
     display: block;
 }
