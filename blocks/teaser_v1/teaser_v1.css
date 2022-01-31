@@ -1,13 +1,14 @@
 .teaser_v1 {
     text-align: center;
     min-width: 30rem;
-    width: 40%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .teaser_v1 img {
     display: block;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
