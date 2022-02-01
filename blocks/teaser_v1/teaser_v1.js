@@ -71,7 +71,7 @@ export default function decorate($block) {
       moveNode($actionDiv, $contentDiv);
     } else if ($el.tagName === 'H3') {
       // headline
-      moveNode($el, $contentDiv, $contentDiv.insertBefore);
+      moveNode($el, $contentDiv, $contentDiv.firstChild);
     } else {
       // description
       if (!descriptionInserted) {
