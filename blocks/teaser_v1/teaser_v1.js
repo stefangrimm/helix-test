@@ -6,7 +6,7 @@ function removeNode($node) {
 
 function moveChildNodes($src, $dest) {
   const children = $src.childNodes;
-  for (let i = children.length - 1; i >= 0; i - 1) {
+  for (let i = children.length - 1; i >= 0; i -= 1) {
     const $toMove = children[i];
     removeNode($toMove);
     $dest.insertBefore($toMove, $dest.firstChild);
@@ -54,7 +54,7 @@ export default function decorate($block) {
   const lastIndex = children.length - 1;
   const $descriptionDiv = document.createElement('div');
   let descriptionInserted = false;
-  for (let i = lastIndex; i >= 0; i - 1) {
+  for (let i = lastIndex; i >= 0; i -= 1) {
     const $el = children[i];
     if (i === 0) {
       // pretitle
