@@ -18,7 +18,7 @@ function replaceNode($src, $dest) {
   const $parent = $src.parentNode;
   if ($parent) {
     $parent.insertBefore($dest, $src);
-    $parent.removeNode($src);
+    $parent.removeChild($src);
   }
 }
 
