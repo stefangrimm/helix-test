@@ -31,6 +31,16 @@ function moveNode($src, $newParent, $insertBefore) {
   }
 }
 
+function childElements($el) {
+  const childEls = [];
+  $el.childNodes.forEach(($n) => {
+    if ($n.nodeType === Node.ELEMENT_NODE) {
+      childEls.push($n);
+    }
+  });
+  return childEls;
+}
+
 export default function decorate($block) {
   const $imgDiv = document.createElement('div');
   $imgDiv.classList.add('teaser_v1-image');
@@ -40,7 +50,7 @@ export default function decorate($block) {
     removeNode($img);
     $imgDiv.appendChild($img);
   });
-  const children = $block.childNodes;
+  const children = childElements($block);
   const lastIndex = children.length - 1;
   const $descriptionDiv = document.createElement('div');
   let descriptionInserted = false;
