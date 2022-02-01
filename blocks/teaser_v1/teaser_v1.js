@@ -49,14 +49,14 @@ export default function decorate($block) {
     if (i === 0) {
       // pretitle
       const $pretitleDiv = document.createElement('div');
-      $pretitleDiv.className.add('deck');
-      $pretitleDiv.className.add('teaser_v1-content-pretitle');
+      $pretitleDiv.classList.add('deck');
+      $pretitleDiv.classList.add('teaser_v1-content-pretitle');
       replaceNode($el, $pretitleDiv);
       moveNode($pretitleDiv, $contentDiv, $contentDiv.firstChild);
     } else if (i === lastIndex) {
       // actions
       const $actionDiv = document.createElement('div');
-      $actionDiv.className.add('teaser_v1-content-actions');
+      $actionDiv.classList.add('teaser_v1-content-actions');
       replaceNode($el, $actionDiv);
       moveNode($actionDiv, $contentDiv);
     } else if ($el.tagName === 'H3') {
