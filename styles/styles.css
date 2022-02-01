@@ -192,6 +192,7 @@ main img {
 
 .grid--full {
   width: 100%;
+  clear: both;
 }
 
 .grid-12--width-1 {

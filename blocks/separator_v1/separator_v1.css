@@ -3,8 +3,11 @@
     border: none;
 }
 
-.separator_v1.standard hr {
-    height: 0.125em;
+.separator_v1.standard {
     margin-bottom: 2.5em;
     margin-top: 5em;
+}
+
+.separator_v1.standard hr {
+    height: 0.125em;
 }
