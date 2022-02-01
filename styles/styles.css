@@ -24,7 +24,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
+  font-family: defaultFont, sans-serif;
   line-height: 1.6;
   margin: 0;
   color: rgba(var(--text-color),.9);
