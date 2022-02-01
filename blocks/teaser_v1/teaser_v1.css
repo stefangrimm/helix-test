@@ -3,10 +3,6 @@
     position: relative;
 }
 
-.teaser_v1.grid {
-    padding: 1rem;
-}
-
 .teaser_v1-image img {
     display: block;
     width: 100%;
@@ -33,10 +29,15 @@
     position: static !important;
     transform: none !important;
     text-align: left;
+    margin: 0.5rem;
 }
 
 .teaser_v1.textAtBottom .teaser_v1-image img {
     height: 20em !important;
+}
+
+.teaser_v1.textAtBottom .teaser_v1-image {
+    margin: 3rem 0.5rem 0.5rem 0.5rem;
 }
 
 .teaser_v1-content-actions a {
