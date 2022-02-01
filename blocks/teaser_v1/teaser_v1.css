@@ -9,6 +9,7 @@
 
 .teaser_v1-image img {
     display: block;
+    width: 100%;
     height: 30em;
     object-fit: cover;
 }
@@ -17,11 +18,15 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    translate: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .teaser_v1.textAtBottom .teaser_v1-content {
     position: static !important;
+}
+
+.teaser_v1.textAtBottom .teaser_v1-image img {
+    height: 20em !important;
 }
 
 .teaser_v1-content h3 {
