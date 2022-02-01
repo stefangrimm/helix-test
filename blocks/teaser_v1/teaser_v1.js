@@ -9,7 +9,7 @@ function moveChildNodes($src, $dest) {
   for (let i = children.length - 1; i >= 0; i - 1) {
     const $toMove = children[i];
     removeNode($toMove);
-    $dest.insertBefore($dest.firstChild);
+    $dest.insertBefore($toMove, $dest.firstChild);
   }
 }
 
