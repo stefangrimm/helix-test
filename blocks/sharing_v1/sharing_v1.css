@@ -11,7 +11,6 @@
 }
 
 .sharing_v1 .pinterest-counter {
-    text-indent: 0;
     position: absolute;
     color: #555;
     background: #efefef;
@@ -21,7 +20,7 @@
     width: 40px;
     font-size: 10px;
     line-height: 20px;
-    
+    text-align: center;
 }
 
 .sharing_v1 .pinterest-counter::before {
