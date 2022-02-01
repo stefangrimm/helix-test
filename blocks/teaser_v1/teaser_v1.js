@@ -41,6 +41,12 @@ function childElements($el) {
   return childEls;
 }
 
+function removeChildren($src) {
+  while ($src.firstChild) {
+    $src.removeChild($src.firstChild);
+  }
+}
+
 export default function decorate($block) {
   const $imgDiv = document.createElement('div');
   $imgDiv.classList.add('teaser_v1-image');
@@ -81,4 +87,7 @@ export default function decorate($block) {
       moveNode($el, $descriptionDiv, $descriptionDiv.firstChild);
     }
   }
+  removeChildren($block);
+  $block.appendChild($imgDiv);
+  $block.appendChild($contentDiv);
 }
