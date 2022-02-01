@@ -1,21 +1,35 @@
 .teaser_v1 {
     text-align: center;
+    position: relative;
 }
 
 .teaser_v1.grid {
     padding: 1rem;
 }
 
-.teaser_v1 img {
+.teaser_v1-image img {
     display: block;
+    height: 30em;
+    object-fit: cover;
 }
 
-.teaser_v1 h3 {
+.teaser_v1-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: translate(-50%, -50%);
+}
+
+.teaser_v1.textAtBottom .teaser_v1-content {
+    position: static !important;
+}
+
+.teaser_v1-content h3 {
     font-size: 1.75rem;
     line-height: 2.25rem;
 }
 
-.teaser_v1 p > a {
+.teaser_v1-content-actions a {
     display: inline-block;
     border: 0.125em solid;
     border-radius: 1.56rem;
@@ -35,7 +49,7 @@
     text-decoration: none;
 }
 
-.teaser_v1 p.deck {
+.teaser_v1-content-pretitle {
     font-size: .625rem;
     color: #607d8b;
     text-transform: uppercase;

@@ -59,6 +59,7 @@ export default function decorate($block) {
   const children = childElements($block);
   const lastIndex = children.length - 1;
   const $descriptionDiv = document.createElement('div');
+  $descriptionDiv.classList.add('teaser_v1-content-description');
   let descriptionInserted = false;
   for (let i = lastIndex; i >= 0; i -= 1) {
     const $el = children[i];
