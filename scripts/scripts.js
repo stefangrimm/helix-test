@@ -392,7 +392,8 @@ export function decoratePictures(main) {
     const newPicture = createOptimizedPicture(img.src, img.alt, !i);
     const picture = img.closest('picture');
     if (picture) picture.parentElement.replaceChild(newPicture, picture);
-    if (['EM', 'STRONG'].includes(newPicture.parentElement.tagName)) {
+    if (newPicture.parentElement
+        && ['EM', 'STRONG'].includes(newPicture.parentElement.tagName)) {
       const styleEl = newPicture.parentElement;
       styleEl.parentElement.replaceChild(newPicture, styleEl);
     }
