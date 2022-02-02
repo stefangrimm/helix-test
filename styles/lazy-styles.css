@@ -1,1 +1,146 @@
-/* below the fold CSS goes here */
+/* below the fold CSS and fonts go here */
+
+@font-face {
+  font-weight: bolder;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("../assets/SourceSansPro-Black.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bolder;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("../assets/SourceSansPro-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bolder;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("../assets/SourceSansPro-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bolder;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("../assets/SourceSansPro-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: lighter;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("../assets/SourceSansPro-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-weight: lighter;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("../assets/SourceSansPro-ExtraLightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: normal;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("../assets/SourceSansPro-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: lighter;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("../assets/SourceSansPro-Light.ttf") format("truetype");
+}
+@font-face {
+  font-weight: lighter;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("../assets/SourceSansPro-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: normal;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("../assets/SourceSansPro-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bold;
+  font-family: "defaultFont";
+  font-style: normal;
+  src: url("../assets/SourceSansPro-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bold;
+  font-family: "defaultFont";
+  font-style: italic;
+  src: url("../assets/SourceSansPro-SemiBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bolder;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("../assets/SourceSerifPro-Black.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bolder;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("../assets/SourceSerifPro-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bolder;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("../assets/SourceSerifPro-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bolder;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("../assets/SourceSerifPro-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: lighter;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("../assets/SourceSerifPro-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-weight: lighter;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("../assets/SourceSerifPro-ExtraLightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: normal;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("../assets/SourceSerifPro-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: lighter;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("../assets/SourceSerifPro-Light.ttf") format("truetype");
+}
+@font-face {
+  font-weight: lighter;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("../assets/SourceSerifPro-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-weight: normal;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("../assets/SourceSerifPro-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bold;
+  font-family: "titleFont";
+  font-style: normal;
+  src: url("../assets/SourceSerifPro-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-weight: bold;
+  font-family: "titleFont";
+  font-style: italic;
+  src: url("../assets/SourceSerifPro-SemiBoldItalic.ttf") format("truetype");
+}
