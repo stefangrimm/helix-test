@@ -1,12 +1,12 @@
 function htmlEncode(text) {
-  return text.replace(/&/, '&amp;')
-    .replace(/</, '&lt;')
-    .replace(/>/, '&gt;')
-    .replace(/"/, '&quot;');
+  return text.replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 function yamlDecode(encoded) {
-  return encoded.replace(/&quot;/, '"');
+  return encoded.replace(/&quot;/g, '"');
 }
 
 function process(data, comp) {
