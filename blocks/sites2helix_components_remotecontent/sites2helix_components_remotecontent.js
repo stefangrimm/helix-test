@@ -27,9 +27,8 @@ function process(data, comp) {
 }
 
 export default function decorate(block) {
-  const comp = block.querySelector('div');
-  const endpoint = comp.getAttribute('data-endpoint');
-  const query = comp.getAttribute('data-query');
+  const endpoint = block.getAttribute('data-endpoint');
+  const query = block.getAttribute('data-query');
 
   fetch(endpoint, {
     method: 'POST',
@@ -40,12 +39,12 @@ export default function decorate(block) {
   }).then((response) => {
     const contentType = response.headers.get('Content-Type');
     if ((response.status === 200) && (contentType === 'application/json')) {
-      comp.innerText = 'Content fetched.';
+      block.innerText = 'Content fetched.';
       response.json().then((json) => {
-        process(json, comp);
+        process(json, block);
       });
     } else {
-      comp.innerText = 'Error fetching remote content.';
+      block.innerText = 'Error fetching remote content.';
     }
   });
 }
