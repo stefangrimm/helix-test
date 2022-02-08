@@ -5,6 +5,10 @@ function htmlEncode(text) {
     .replace(/"/, '&quot;');
 }
 
+function yamlDecode(encoded) {
+  return encoded.replace(/&quot;/, '"');
+}
+
 function process(data, comp) {
   const content = data.data.content;
   if (content && content.length) {
@@ -28,7 +32,7 @@ function process(data, comp) {
 
 export default function decorate(block) {
   const endpoint = block.getAttribute('data-endpoint');
-  const query = block.getAttribute('data-query');
+  const query = yamlDecode(block.getAttribute('data-query'));
 
   fetch(endpoint, {
     method: 'POST',
